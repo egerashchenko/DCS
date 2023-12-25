@@ -68,7 +68,7 @@ timer2_isr:
   reti
 
 usart_send_string:
-  movw ZL, TEMP
+  movw Z, TEMP
 
 usart_send_string_loop:
   ld TEMP, Z+
